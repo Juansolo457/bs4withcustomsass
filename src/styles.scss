@@ -3,58 +3,77 @@ $theme-colors: (
   "danger": #ff4136
 );
 
-.card, .card-body{
-    display: flex;
-    margin: 35px;
-    vertical-align: 20px;
-    flex-direction: row;
-    border-style: dashed;
-    border-color: #ff4136;
+.card {
+  margin: 10px;
+  border-style: dashed;
+  border-color: #ff4136;
+  border-width: 4px;
+  height: 480px;
 }
 
-.card-title, .card-text {
-    text-align: right;
+ul, li {
+  list-style: none;
 }
 
-.pookie {
+
+.go-somewhere {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+}
+// .card, .card-body{
+//     display: flex;
+//     margin: 35px;
+//     vertical-align: 20px;
+//     flex-direction: row;
+//     border-style: dashed;
+//     border-color: #ff4136;
+// }
+
+// .card-title, .card-text {
+//     text-align: right;
+// }
+
+// .pookie {
     
-}
-// customize the card border thickness - and move the margin down! 
-// how is this affected for responsive design? if you don't put it into a
-// 12 grid container?? 
-
-
-@import '../node_modules/bootstrap/scss/bootstrap';
-
-$theme-colors: map-remove($theme-colors, "success", "info", "danger");
-
-
-// html {
-//     box-sizing: border-box; 
 // }
+// // customize the card border thickness - and move the margin down! 
+// // how is this affected for responsive design? if you don't put it into a
+// // 12 grid container?? 
 
-// .btn-primary {
-// 	background-color:#222;
-// }
 
-// .bg-primary {
-//     background-color: #222;
-// }
+// @import '../node_modules/bootstrap/scss/bootstrap';
 
-// .navbar, .bg-primary, .navbar-expand-md, .navbar-brand {
-//     background: #222;
-// }
+// $theme-colors: map-remove($theme-colors, "success", "info", "danger");
 
-//@import '../node_modules/font-awesome/scss/font-awesome.scss';
-// @import 'components/index.scss';
-// @import 'forms/index.scss';
-// @import 'layout/index.scss';
-// $colorInfo: #377CA5;
-// $colorSuccess: #37A592;
-// $colorMutedLight: #EEE;
-// $colorMuted: #CCC;
-// $colorMutedDark: #3f3f3f; 
-// $colorDanger: #A5374A;
-// $colorPrimary: 
-// $colorLight: #FFF;
-// styles that bman uses in enterprise - folder tree - controller type template? 
+
+// // html {
+// //     box-sizing: border-box; 
+// // }
+
+// // .btn-primary {
+// // 	background-color:#222;
+// // }
+
+// // .bg-primary {
+// //     background-color: #222;
+// // }
+
+// // .navbar, .bg-primary, .navbar-expand-md, .navbar-brand {
+// //     background: #222;
+// // }
+
+// //@import '../node_modules/font-awesome/scss/font-awesome.scss';
+// // @import 'components/index.scss';
+// // @import 'forms/index.scss';
+// // @import 'layout/index.scss';
+// // $colorInfo: #377CA5;
+// // $colorSuccess: #37A592;
+// // $colorMutedLight: #EEE;
+// // $colorMuted: #CCC;
+// // $colorMutedDark: #3f3f3f; 
+// // $colorDanger: #A5374A;
+// // $colorPrimary: 
+// // $colorLight: #FFF;
+// // styles that bman uses in enterprise - folder tree - controller type template? 
